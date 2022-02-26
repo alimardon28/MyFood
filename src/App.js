@@ -1,11 +1,14 @@
-import './App.css';
-import Header from './Components/Header/Header'
+import React from 'react';
+import './Components/Meal.css';
+import Meal from "./Components/Meal"
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <Header />
-    </div>
+    <>
+
+    <Meal />
+
+    </>
   );
 }
 

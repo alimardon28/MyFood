@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #222;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.MealMain{
+    margin: 0;
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.MealHeading{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.Heading{
+    margin: 0;
+    padding: 0;
+    font-size: 50px;
+    line-height:70px;
+    color: #fff;
+}
+
+/* SEARCH BOX CSS */
+
+.SearchBox{
+    margin: 0;
+    padding:20px;
+}
+
+.SearchInput{
+    margin: 0;
+    padding: 10px;
+    width: 320px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    border-bottom: 3px solid #9999;
+    background-color: rgb(0, 0, 0,0);
+    font-size: 20px;
+    color: #fff;
+}
+
+.SearchInput::placeholder{
+    color: #ccc;
+    font-size: 24px;
+    line-height: 24px;
+}
+
+/* MEAI ITEM BOX CSS */
+.MealItemBox{
+    margin: 0;
+    padding:20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.MealCard{
+    margin:20px;
+    padding: 20px;
+    min-width: 360px;
+    max-width: 360px;
+    min-height: 520px;
+    max-height: 520px;
+    border: 1px solid #444;
+    border-radius: 2px;
+    color: #fff;
+}
+
+.MealCardImg{
+    margin: 0;
+    padding: 0;
+    width: 317px;
+    height: 249px;
+    border-radius: 18px;
+}
+
+.MealInfo{
+    margin: 0;
+    padding: 8px;
+    font-size: 16px;
+    overflow: auto;
+    height: 230px;
+}
+
+.MealInfo__heading{
+    margin-top:8px;
+    padding:0;
+    font-size: 20px;
+}
+
+.MealInfo__desc{
+    margin-top: 3px;
+    padding: 0;
+    font-size: 14px;
+}
+
+/* Not found desc css */
+.notfound__desc{
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+    line-height: 80px;
+    color: #fff;
+}
