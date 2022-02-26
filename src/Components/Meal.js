@@ -6,7 +6,7 @@ const Meal = () => {
     const [search , setSearch] = useState();
     const [meal , SetMeal]=useState();
      const searchMeal = (event) =>{
-       if(event.key =="Enter")
+       if(event.key === "Enter")
        {
            fetch(`https://www.themealdb.com/api/json/v1/1/search.php?s=${search}`)
            .then(res=>res.json())
