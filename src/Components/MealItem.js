@@ -11,7 +11,10 @@ const Mealitem = (Mymeal) => {
                 <h2 className='MealInfo__heading'>{Mymeal.data.strMeal}</  h2>
                 <p className='MealInfo__desc'>{Mymeal.data.strInstructions}</p>
             </div>
-            </div>
+            <div className='MealYoutubeBox'>
+              <a className='MealYoutubeBox__link' href={Mymeal.data.strYoutube}>Go To Youtube</a>
+          </div>
+          </div>
         </>
     );
 }

@@ -4,13 +4,13 @@ import Mealitem from './MealItem';
 const Meal = () => {
 
     const [search , setSearch] = useState();
-    const [meal , SetMeal]=useState();
+    const [meal , SetMeal] = useState();
      const searchMeal = (event) =>{
        if(event.key === "Enter")
         {
            fetch(`https://www.themealdb.com/api/json/v1/1/search.php?s=${search}`)
-           .then(res=>res.json())
-           .then(data=>{
+           .then(res => res.json())
+           .then(data => {
             SetMeal(data.meals)
            })
         }
