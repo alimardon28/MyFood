@@ -7,13 +7,13 @@ const Meal = () => {
     const [meal , SetMeal]=useState();
      const searchMeal = (event) =>{
        if(event.key === "Enter")
-       {
+        {
            fetch(`https://www.themealdb.com/api/json/v1/1/search.php?s=${search}`)
            .then(res=>res.json())
            .then(data=>{
             SetMeal(data.meals)
            })
-       }
+        }
      }
 
 

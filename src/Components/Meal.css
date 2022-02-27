@@ -119,3 +119,25 @@ body{
     line-height: 80px;
     color: #fff;
 }
+
+
+/* Scroll csss */
+::-webkit-scrollbar {
+    width: 5px;
+    height: 10px;
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #ccc;
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
